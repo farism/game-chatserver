@@ -1,0 +1,939 @@
+Mon Aug  8 23:35:58 2016: WARNING: <dns:server> not defined, attempting to find working server in /etc/resolv.conf...
+Mon Aug  8 23:35:58 2016: <dns:server> set to '127.0.0.11' as first resolver in /etc/resolv.conf.
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_away.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_whowas.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_kline.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_lusers.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_names.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_join.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_part.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_modenotice.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_list.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_connect.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_admin.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_server.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_mode.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_kick.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_modules.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_eline.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_rules.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_invite.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_die.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_version.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_ison.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_links.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_info.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_topic.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_commands.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_user.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_whois.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_motd.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_loadmodule.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_gline.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_stats.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_restart.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_map.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_oper.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_wallops.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_clearcache.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_reloadmodule.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_rehash.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_pass.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_privmsg.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_ping.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_pong.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_time.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_userhost.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_squit.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_who.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_notice.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_unloadmodule.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_qline.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_quit.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_zline.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_nick.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: cmd_kill.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: m_chanprotect.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: m_halfop.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: m_services_account.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: m_deaf.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: m_spanningtree.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: m_globops.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: m_cban.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: m_svshold.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: m_hidechans.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: m_servprotect.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: m_chghost.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: m_namesx.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: New module introduced: m_uhnames.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:35:58 2016: Keeping pseudo-tty open as we are running in the foreground.
+Mon Aug  8 23:35:58 2016: Startup complete as 'irc.testirc.com'[233], 1048576 max open sockets
+Mon Aug  8 23:38:46 2016: WARNING: <whowas:maxkeep> value of 0 is not between 3600 and 2147483647; set to 3600.
+Mon Aug  8 23:38:46 2016: There were errors in your configuration file:
+Mon Aug  8 23:38:46 2016: ANNOUNCEMENT: Syntax error - start of tag expected at /inspircd/conf/inspircd.conf:170:7 (last tag was on line 135)
+Mon Aug  8 23:39:05 2016: WARNING: <dns:server> not defined, attempting to find working server in /etc/resolv.conf...
+Mon Aug  8 23:39:05 2016: <dns:server> set to '127.0.0.11' as first resolver in /etc/resolv.conf.
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_away.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_whowas.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_kline.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_lusers.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_names.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_join.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_part.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_modenotice.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_list.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_connect.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_admin.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_server.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_mode.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_kick.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_modules.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_eline.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_rules.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_invite.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_die.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_version.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_ison.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_links.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_info.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_topic.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_commands.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_user.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_whois.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_motd.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_loadmodule.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_gline.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_stats.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_restart.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_map.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_oper.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_wallops.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_clearcache.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_reloadmodule.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_rehash.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_pass.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_privmsg.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_ping.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_pong.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_time.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_userhost.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_squit.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_who.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_notice.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_unloadmodule.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_qline.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_quit.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_zline.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_nick.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: New module introduced: cmd_kill.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:39:05 2016: Keeping pseudo-tty open as we are running in the foreground.
+Mon Aug  8 23:39:05 2016: Startup complete as 'irc.testirc.com'[233], 1048576 max open sockets
+Mon Aug  8 23:41:20 2016: Unable to open config file /inspircd/conf/inspircd.conf
+Mon Aug  8 23:41:24 2016: Unable to open config file /inspircd/conf/inspircd.conf
+Mon Aug  8 23:41:54 2016: WARNING: <dns:server> not defined, attempting to find working server in /etc/resolv.conf...
+Mon Aug  8 23:41:54 2016: <dns:server> set to '127.0.0.11' as first resolver in /etc/resolv.conf.
+Mon Aug  8 23:41:54 2016: There were errors in your configuration file:
+Mon Aug  8 23:41:54 2016: ANNOUNCEMENT: Your configuration contains a deprecated value: <die:value> - you need to reread your config (at /inspircd/conf/inspircd.conf:515)
+Mon Aug  8 23:41:54 2016: ANNOUNCEMENT: Your configuration contains a deprecated value: <die:value> - you need to reread your config (at /inspircd/conf/inspircd.conf:940)
+Mon Aug  8 23:48:27 2016: There were errors in your configuration file:
+Mon Aug  8 23:48:27 2016: ANNOUNCEMENT: <define> tags may only be used in XML-style config (add <config format="xml">) at /inspircd/conf/inspircd.conf:77:38 (inside tag define at line 77)
+Mon Aug  8 23:48:27 2016: ANNOUNCEMENT: The value of <server:name> is not a valid hostname
+Mon Aug  8 23:48:55 2016: WARNING: <dns:server> not defined, attempting to find working server in /etc/resolv.conf...
+Mon Aug  8 23:48:55 2016: <dns:server> set to '127.0.0.11' as first resolver in /etc/resolv.conf.
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_away.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_whowas.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_kline.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_lusers.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_names.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_join.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_part.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_modenotice.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_list.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_connect.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_admin.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_server.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_mode.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_kick.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_modules.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_eline.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_rules.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_invite.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_die.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_version.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_ison.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_links.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_info.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_topic.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_commands.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_user.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_whois.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_motd.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_loadmodule.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_gline.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_stats.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_restart.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_map.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_oper.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_wallops.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_clearcache.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_reloadmodule.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_rehash.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_pass.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_privmsg.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_ping.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_pong.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_time.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_userhost.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_squit.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_who.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_notice.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_unloadmodule.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_qline.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_quit.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_zline.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_nick.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: New module introduced: cmd_kill.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:48:55 2016: Keeping pseudo-tty open as we are running in the foreground.
+Mon Aug  8 23:48:55 2016: Startup complete as 'irc.test.com'[051], 1048576 max open sockets
+Mon Aug  8 23:52:56 2016: WARNING: <dns:server> not defined, attempting to find working server in /etc/resolv.conf...
+Mon Aug  8 23:52:56 2016: <dns:server> set to '127.0.0.11' as first resolver in /etc/resolv.conf.
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_away.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_whowas.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_kline.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_lusers.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_names.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_join.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_part.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_modenotice.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_list.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_connect.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_admin.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_server.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_mode.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_kick.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_modules.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_eline.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_rules.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_invite.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_die.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_version.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_ison.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_links.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_info.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_topic.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_commands.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_user.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_whois.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_motd.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_loadmodule.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_gline.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_stats.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_restart.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_map.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_oper.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_wallops.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_clearcache.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_reloadmodule.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_rehash.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_pass.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_privmsg.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_ping.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_pong.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_time.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_userhost.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_squit.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_who.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_notice.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_unloadmodule.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_qline.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_quit.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_zline.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_nick.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: New module introduced: cmd_kill.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:52:56 2016: Keeping pseudo-tty open as we are running in the foreground.
+Mon Aug  8 23:52:56 2016: Startup complete as 'irc.test.com'[051], 1048576 max open sockets
+Mon Aug  8 23:54:35 2016: WARNING: <dns:server> not defined, attempting to find working server in /etc/resolv.conf...
+Mon Aug  8 23:54:35 2016: <dns:server> set to '127.0.0.11' as first resolver in /etc/resolv.conf.
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_away.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_whowas.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_kline.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_lusers.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_names.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_join.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_part.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_modenotice.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_list.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_connect.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_admin.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_server.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_mode.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_kick.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_modules.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_eline.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_rules.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_invite.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_die.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_version.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_ison.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_links.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_info.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_topic.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_commands.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_user.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_whois.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_motd.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_loadmodule.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_gline.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_stats.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_restart.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_map.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_oper.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_wallops.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_clearcache.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_reloadmodule.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_rehash.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_pass.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_privmsg.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_ping.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_pong.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_time.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_userhost.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_squit.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_who.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_notice.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_unloadmodule.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_qline.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_quit.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_zline.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_nick.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: New module introduced: cmd_kill.so (Module version InspIRCd-2.0.21 r0)
+Mon Aug  8 23:54:35 2016: Keeping pseudo-tty open as we are running in the foreground.
+Mon Aug  8 23:54:35 2016: Startup complete as 'irc.test.com'[051], 1048576 max open sockets
+Mon Aug  8 23:55:38 2016: DEBUG: EH?! -- Time is jumping FORWARDS! Clock skipped 19 secs.
+Tue Aug  9 12:55:45 2016: DEBUG: EH?! -- Time is jumping FORWARDS! Clock skipped 46750 secs.
+Tue Aug  9 22:24:37 2016: DEBUG: EH?! -- Time is jumping FORWARDS! Clock skipped 34129 secs.
+Wed Aug 10 17:51:46 2016: DEBUG: EH?! -- Time is jumping FORWARDS! Clock skipped 70026 secs.
+Wed Aug 10 17:55:09 2016: DEBUG: EH?! -- Time is jumping FORWARDS! Clock skipped 199 secs.
+Wed Aug 10 19:10:48 2016: DEBUG: EH?! -- Time is jumping FORWARDS! Clock skipped 4528 secs.
+Wed Aug 10 19:22:00 2016: DEBUG: EH?! -- Time is jumping FORWARDS! Clock skipped 669 secs.
+Wed Aug 10 17:05:54 2016: DEBUG: EH?! -- Time is flowing BACKWARDS in this dimension! Clock drifted backwards 8169 secs.
+Wed Aug 10 18:01:37 2016: WARNING: <dns:server> not defined, attempting to find working server in /etc/resolv.conf...
+Wed Aug 10 18:01:37 2016: <dns:server> set to '127.0.0.11' as first resolver in /etc/resolv.conf.
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_away.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_whowas.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_kline.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_lusers.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_names.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_join.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_part.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_modenotice.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_list.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_connect.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_admin.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_server.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_mode.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_kick.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_modules.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_eline.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_rules.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_invite.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_die.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_version.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_ison.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_links.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_info.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_topic.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_commands.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_user.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_whois.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_motd.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_loadmodule.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_gline.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_stats.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_restart.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_map.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_oper.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_wallops.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_clearcache.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_reloadmodule.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_rehash.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_pass.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_privmsg.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_ping.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_pong.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_time.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_userhost.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_squit.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_who.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_notice.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_unloadmodule.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_qline.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_quit.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_zline.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_nick.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: New module introduced: cmd_kill.so (Module version InspIRCd-2.0.21 r0)
+Wed Aug 10 18:01:37 2016: Keeping pseudo-tty open as we are running in the foreground.
+Wed Aug 10 18:01:37 2016: Startup complete as 'irc.test.com'[051], 1048576 max open sockets
+Wed Aug 10 22:00:34 2016: WARNING: <dns:server> not defined, attempting to find working server in /etc/resolv.conf...
+Wed Aug 10 22:00:34 2016: <dns:server> set to '127.0.0.11' as first resolver in /etc/resolv.conf.
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_away.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_whowas.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_kline.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_lusers.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_names.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_join.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_part.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_modenotice.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_list.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_connect.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_admin.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_server.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_mode.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_kick.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_modules.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_eline.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_rules.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_invite.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_die.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_version.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_ison.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_links.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_info.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_topic.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_commands.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_user.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_whois.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_motd.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_loadmodule.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_gline.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_stats.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_restart.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_map.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_oper.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_wallops.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_clearcache.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_reloadmodule.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_rehash.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_pass.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_privmsg.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_ping.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_pong.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_time.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_userhost.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_squit.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_who.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_notice.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_unloadmodule.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_qline.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_quit.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_zline.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_nick.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: New module introduced: cmd_kill.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 22:00:34 2016: Keeping pseudo-tty open as we are running in the foreground.
+Wed Aug 10 22:00:34 2016: Startup complete as 'irc.test.com'[051], 1048576 max open sockets
+Wed Aug 10 22:00:38 2016: Module cmd_admin.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_away.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_clearcache.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_commands.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_connect.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_die.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_eline.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_gline.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_info.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_invite.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_ison.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_join.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_kick.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_kill.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_kline.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_links.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_list.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_loadmodule.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_lusers.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_map.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_mode.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_modenotice.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_modules.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_motd.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_names.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_nick.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_notice.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_oper.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_part.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_pass.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_ping.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_pong.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_privmsg.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_qline.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_quit.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_rehash.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_reloadmodule.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_restart.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_rules.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_server.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_squit.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_stats.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_time.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_topic.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_unloadmodule.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_user.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_userhost.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_version.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_wallops.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_who.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_whois.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_whowas.so unloaded
+Wed Aug 10 22:00:38 2016: Module cmd_zline.so unloaded
+Wed Aug 10 23:38:18 2016: WARNING: <dns:server> not defined, attempting to find working server in /etc/resolv.conf...
+Wed Aug 10 23:38:18 2016: <dns:server> set to '127.0.0.11' as first resolver in /etc/resolv.conf.
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_away.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_whowas.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_kline.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_lusers.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_names.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_join.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_part.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_modenotice.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_list.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_connect.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_admin.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_server.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_mode.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_kick.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_modules.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_eline.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_rules.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_invite.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_die.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_version.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_ison.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_links.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_info.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_topic.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_commands.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_user.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_whois.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_motd.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_loadmodule.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_gline.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_stats.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_restart.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_map.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_oper.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_wallops.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_clearcache.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_reloadmodule.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_rehash.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_pass.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_privmsg.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_ping.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_pong.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_time.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_userhost.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_squit.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_who.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_notice.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_unloadmodule.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_qline.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_quit.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_zline.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_nick.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: New module introduced: cmd_kill.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:38:18 2016: Keeping pseudo-tty open as we are running in the foreground.
+Wed Aug 10 23:38:18 2016: Startup complete as 'irc.localhost'[619], 1048576 max open sockets
+Wed Aug 10 23:38:29 2016: CONNECT: Client connecting on port 6667 (class main): farismustafa!farismustaf@172.18.0.1 (172.18.0.1) [farismustafa]
+Wed Aug 10 23:38:54 2016: QUIT: Client exiting: farismustafa!farismustaf@172.18.0.1 (172.18.0.1) [Quit: ]
+Wed Aug 10 23:41:57 2016: CONNECT: Client connecting on port 6667 (class main): fae!fae@172.18.0.1 (172.18.0.1) [fae]
+Wed Aug 10 23:42:45 2016: QUIT: Client exiting: fae!fae@172.18.0.1 (172.18.0.1) [Server shutdown]
+Wed Aug 10 23:42:45 2016: Module cmd_admin.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_away.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_clearcache.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_commands.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_connect.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_die.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_eline.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_gline.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_info.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_invite.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_ison.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_join.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_kick.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_kill.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_kline.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_links.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_list.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_loadmodule.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_lusers.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_map.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_mode.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_modenotice.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_modules.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_motd.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_names.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_nick.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_notice.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_oper.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_part.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_pass.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_ping.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_pong.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_privmsg.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_qline.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_quit.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_rehash.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_reloadmodule.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_restart.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_rules.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_server.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_squit.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_stats.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_time.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_topic.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_unloadmodule.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_user.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_userhost.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_version.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_wallops.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_who.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_whois.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_whowas.so unloaded
+Wed Aug 10 23:42:45 2016: Module cmd_zline.so unloaded
+Wed Aug 10 23:42:51 2016: WARNING: <dns:server> not defined, attempting to find working server in /etc/resolv.conf...
+Wed Aug 10 23:42:51 2016: <dns:server> set to '127.0.0.11' as first resolver in /etc/resolv.conf.
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_away.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_whowas.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_kline.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_lusers.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_names.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_join.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_part.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_modenotice.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_list.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_connect.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_admin.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_server.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_mode.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_kick.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_modules.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_eline.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_rules.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_invite.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_die.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_version.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_ison.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_links.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_info.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_topic.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_commands.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_user.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_whois.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_motd.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_loadmodule.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_gline.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_stats.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_restart.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_map.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_oper.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_wallops.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_clearcache.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_reloadmodule.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_rehash.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_pass.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_privmsg.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_ping.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_pong.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_time.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_userhost.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_squit.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_who.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_notice.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_unloadmodule.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_qline.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_quit.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_zline.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_nick.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: New module introduced: cmd_kill.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:42:51 2016: Keeping pseudo-tty open as we are running in the foreground.
+Wed Aug 10 23:42:51 2016: Startup complete as 'irc.test.com'[051], 1048576 max open sockets
+Wed Aug 10 23:43:07 2016: Module cmd_admin.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_away.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_clearcache.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_commands.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_connect.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_die.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_eline.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_gline.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_info.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_invite.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_ison.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_join.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_kick.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_kill.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_kline.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_links.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_list.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_loadmodule.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_lusers.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_map.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_mode.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_modenotice.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_modules.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_motd.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_names.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_nick.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_notice.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_oper.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_part.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_pass.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_ping.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_pong.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_privmsg.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_qline.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_quit.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_rehash.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_reloadmodule.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_restart.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_rules.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_server.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_squit.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_stats.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_time.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_topic.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_unloadmodule.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_user.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_userhost.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_version.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_wallops.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_who.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_whois.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_whowas.so unloaded
+Wed Aug 10 23:43:07 2016: Module cmd_zline.so unloaded
+Wed Aug 10 23:43:09 2016: WARNING: <dns:server> not defined, attempting to find working server in /etc/resolv.conf...
+Wed Aug 10 23:43:09 2016: <dns:server> set to '127.0.0.11' as first resolver in /etc/resolv.conf.
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_away.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_whowas.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_kline.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_lusers.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_names.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_join.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_part.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_modenotice.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_list.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_connect.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_admin.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_server.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_mode.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_kick.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_modules.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_eline.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_rules.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_invite.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_die.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_version.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_ison.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_links.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_info.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_topic.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_commands.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_user.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_whois.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_motd.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_loadmodule.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_gline.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_stats.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_restart.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_map.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_oper.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_wallops.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_clearcache.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_reloadmodule.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_rehash.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_pass.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_privmsg.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_ping.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_pong.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_time.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_userhost.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_squit.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_who.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_notice.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_unloadmodule.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_qline.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_quit.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_zline.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_nick.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: New module introduced: cmd_kill.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:43:09 2016: Keeping pseudo-tty open as we are running in the foreground.
+Wed Aug 10 23:43:09 2016: Startup complete as 'irc.localhost'[619], 1048576 max open sockets
+Wed Aug 10 23:44:00 2016: WARNING: <dns:server> not defined, attempting to find working server in /etc/resolv.conf...
+Wed Aug 10 23:44:00 2016: <dns:server> set to '127.0.0.11' as first resolver in /etc/resolv.conf.
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_away.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_whowas.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_kline.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_lusers.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_names.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_join.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_part.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_modenotice.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_list.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_connect.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_admin.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_server.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_mode.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_kick.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_modules.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_eline.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_rules.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_invite.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_die.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_version.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_ison.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_links.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_info.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_topic.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_commands.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_user.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_whois.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_motd.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_loadmodule.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_gline.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_stats.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_restart.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_map.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_oper.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_wallops.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_clearcache.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_reloadmodule.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_rehash.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_pass.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_privmsg.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_ping.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_pong.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_time.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_userhost.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_squit.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_who.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_notice.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_unloadmodule.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_qline.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_quit.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_zline.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_nick.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: New module introduced: cmd_kill.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:00 2016: Keeping pseudo-tty open as we are running in the foreground.
+Wed Aug 10 23:44:00 2016: Startup complete as 'irc.localhost'[619], 1048576 max open sockets
+Wed Aug 10 23:44:05 2016: CONNECT: Client connecting on port 6667 (class main): fae!fae@172.18.0.1 (172.18.0.1) [fae]
+Wed Aug 10 23:44:08 2016: QUIT: Client exiting: fae!fae@172.18.0.1 (172.18.0.1) [Quit: Leaving...]
+Wed Aug 10 23:44:19 2016: Module cmd_admin.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_away.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_clearcache.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_commands.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_connect.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_die.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_eline.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_gline.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_info.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_invite.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_ison.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_join.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_kick.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_kill.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_kline.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_links.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_list.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_loadmodule.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_lusers.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_map.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_mode.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_modenotice.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_modules.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_motd.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_names.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_nick.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_notice.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_oper.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_part.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_pass.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_ping.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_pong.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_privmsg.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_qline.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_quit.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_rehash.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_reloadmodule.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_restart.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_rules.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_server.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_squit.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_stats.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_time.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_topic.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_unloadmodule.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_user.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_userhost.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_version.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_wallops.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_who.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_whois.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_whowas.so unloaded
+Wed Aug 10 23:44:19 2016: Module cmd_zline.so unloaded
+Wed Aug 10 23:44:21 2016: WARNING: <dns:server> not defined, attempting to find working server in /etc/resolv.conf...
+Wed Aug 10 23:44:21 2016: <dns:server> set to '127.0.0.11' as first resolver in /etc/resolv.conf.
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_away.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_whowas.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_kline.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_lusers.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_names.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_join.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_part.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_modenotice.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_list.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_connect.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_admin.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_server.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_mode.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_kick.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_modules.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_eline.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_rules.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_invite.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_die.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_version.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_ison.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_links.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_info.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_topic.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_commands.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_user.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_whois.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_motd.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_loadmodule.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_gline.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_stats.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_restart.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_map.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_oper.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_wallops.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_clearcache.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_reloadmodule.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_rehash.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_pass.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_privmsg.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_ping.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_pong.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_time.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_userhost.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_squit.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_who.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_notice.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_unloadmodule.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_qline.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_quit.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_zline.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_nick.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: New module introduced: cmd_kill.so (Module version InspIRCd-2.0.18 r0)
+Wed Aug 10 23:44:21 2016: Keeping pseudo-tty open as we are running in the foreground.
+Wed Aug 10 23:44:21 2016: Startup complete as 'irc.localhost'[619], 1048576 max open sockets
+Wed Aug 10 23:44:25 2016: CONNECT: Client connecting on port 6667 (class main): fae!fae@172.18.0.1 (172.18.0.1) [fae]
+Wed Aug 10 23:44:26 2016: QUIT: Client exiting: fae!fae@172.18.0.1 (172.18.0.1) [Connection closed]
+Wed Aug 10 23:51:40 2016: DEBUG: EH?! -- Time is jumping FORWARDS! Clock skipped 19 secs.
